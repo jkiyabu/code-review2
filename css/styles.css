@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-style: oblique;
   text-decoration: underline;
@@ -22,6 +26,11 @@ h3 {
 .btn {
   display: block;
   margin-bottom: 20px;
+}
+
+.language {
+  font-weight: bold;
+  font-style: italic;
 }
 
 #suggestion1 {

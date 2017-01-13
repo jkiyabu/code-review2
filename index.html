@@ -10,22 +10,27 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Jayeson's Track Suggester</h1>
+        <h1>Jayeson's</h1>
+        <h1>Programming Suggester</h1>
       </div>
       <img src="img/think.jpg" alt="a photo of thinking man" class="img1">
-      <h3>I'll need to ask you some questions before I can make a suitable suggestion:</h3>
+      <h3>I'll need to ask you some questions before I can make a suitable suggestion for your path into the world of programming:</h3>
       <div id="track">
         <form>
           <div class="form-group">
-            <label for="question1">What type of company to you envision yourself working for?</label>
+            <div class="form-group">
+              <label for="name">What is your name?</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <label for="question1">What type of company do you envision yourself working for?</label>
             <select id="question1" class="form-control">
               <option value="">--</option>
-              <option value="large-comp">Large company</option>
+              <option value="large-comp">Large enterprise-level company</option>
               <option value="small-comp">Small or young start-up company</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="question2">How would you describe yourself?</label>
+            <label for="question2">Which of these best describes you?</label>
             <select id="question2" class="form-control">
               <option value="">--</option>
               <option value="creative">I have a creative mind that would contribute to the design and appearance of a webpage</option>
@@ -33,15 +38,15 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="question3">Do you prefer the more simple and comprehensive, or more complicated and rewarding?</label>
+            <label for="question3">Do you prefer the more simple and comprehensive, or more complex and challenging?</label>
             <select id="question3" class="form-control">
               <option value="">--</option>
               <option value="simple">Simple</option>
-              <option value="complicated">Complicated</option>
+              <option value="complicated">Complex</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="question4">Are you more interested in server server-side scripting language or client-side language?</label>
+            <label for="question4">Are you more interested in server-side scripting language or client-side language?</label>
             <select id="question4" class="form-control">
               <option value="">--</option>
               <option value="server">Server-side</option>
@@ -56,32 +61,32 @@
               <option value="mobile">Mobile</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-success">Decide your fate!</button>
+          <button type="submit" class="btn btn-success">Decide Your Path!</button>
         </form>
       </div>
       <div id="suggestion1">
         <img src="img/solution.jpg" alt="a photo of man with lightbulb" class="img2">
         <h2>Java</h2>
-        <h3>We suggest that you explore a future working with Java</h3>
+        <h3><span class="name"></span>, I suggest that you explore a future working with <span class="language">Java/Android</span></h3>
       </div>
       <div id="suggestion2">
         <img src="img/solution.jpg" alt="a photo of man with lightbulb" class="img2">
         <h2>Ruby</h2>
-        <h3>We suggest that you explore a future working with Ruby</h3>
+        <h3><span class="name"></span>, I suggest that you explore a future working with <span class="language">Ruby/Rails</span></h3>
       </div>
       <div id="suggestion3">
         <img src="img/solution.jpg" alt="a photo of man with lightbulb" class="img2">
         <h2>PHP</h2>
-        <h3>We suggest that you explore a future working with PHP</h3>
+        <h3><span class="name"></span>, I suggest that you explore a future working with <span class="language">PHP/Drupal</span></h3>
       </div>
       <div id="suggestion4">
         <img src="img/solution.jpg" alt="a photo of man with lightbulb" class="img2">
         <h2>CSS</h2>
-        <h3>We suggest that you explore a future working with CSS/Design</h3>
+        <h3><span class="name"></span>, I suggest that you explore a future working with <span class="language">CSS/Design</span></h3>
       </div>
       <div id="suggestion5">
-        <h2>Error</h2>
-        <h3>Please answer all of the questions!</h3>
+        <h2>Oops!</h2>
+        <h3><span class="name"></span>, please answer all of the questions!</h3>
       </div>
     </div>
   </body>
