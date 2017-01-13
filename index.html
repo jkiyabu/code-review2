@@ -10,10 +10,47 @@
   <body>
     <div class="container">
       <h1>Jayeson's Track Suggester</h1>
-
-
-
-
+      <p>I'll need to ask you some questions before I can make a suitable suggestion:</p>
+      <div id="track">
+        <form>
+          <div class="form-group">
+            <label for="question1">Do you envision yourself a part of a larger or smaller company?</label>
+            <select id="question1" class="form-control">
+              <option value="large-comp">Large company</option>
+              <option value="small-comp">Small company</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question2">How would you describe yourself?</label>
+            <select id="question2" class="form-control">
+              <option value="creative">I have a creative mind that would contribute to the design of web development</option>
+              <option value="structured">I like to follow the book and apply the proper rules to make things function properly</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question3">Do you prefer the more simple and comprehensive, or more complicated and rewarding?</label>
+            <select id="question3" class="form-control">
+              <option value="simple">Simple</option>
+              <option value="complicated">Complicated</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question4">Are you more interested in server server-side scripting language or general-purpose language?</label>
+            <select id="question4" class="form-control">
+              <option value="server">Server-side</option>
+              <option value="general">General-perpose</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="question5">Would you rather work primarily with desktop applications, or would you like to incorporate mobile apps as well?</label>
+            <select id="question5" class="form-control">
+              <option value="desktop">Desktop</option>
+              <option value="mobile">Mobile</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success">What's my path??</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
