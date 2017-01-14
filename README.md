@@ -6,7 +6,7 @@
 
 ## Description
 
-This page will ask the user a series of questions to determine which programming path would best suit them.  It will then calculate a response based on the users answers, and advise them on which programming language would suit them best.
+This page will ask the user a series of questions to determine which programming path would best suit them.  It will then calculate a recommendation based on the users answers.
 
 ## Setup/Installation Requirements
 
